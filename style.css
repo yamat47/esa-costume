@@ -42,7 +42,7 @@ i.category-heading__icon {
   border-left: .375em solid #e50020;
   background-color: #f5f5f7;
   line-height: 1.6;
-  padding: .5em .625em;
+  padding: .5em 1.25em;
 }
 
 .markdown h3 {
