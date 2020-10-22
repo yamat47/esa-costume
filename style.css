@@ -39,10 +39,26 @@ i.category-heading__icon {
 .markdown h2 {
   font-size: 1.375em;
   border-bottom: none!important;
-  border-left: .375em solid #e50020;
+  border-left: .375em solid #0a9b94;
   background-color: #f5f5f7;
   line-height: 1.6;
   padding: .5em 1.25em;
+}
+
+.user-theme--navy .markdown h2 {
+  border-left: .375em solid #0f6c96;
+}
+
+.user-theme--sky .markdown h2 {
+  border-left: .375em solid #0491b7;
+}
+
+.user-theme--grass .markdown h2 {
+  border-left: .375em solid #7daa02;
+}
+
+.user-theme--rose .markdown h2 {
+  border-left: .375em solid #bc5053;
 }
 
 .markdown h3 {
