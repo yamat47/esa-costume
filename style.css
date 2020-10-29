@@ -10,7 +10,6 @@ span.navbar-side__title-name::before {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: '\f07b';
 }
 
 a.category-path__link::before {
@@ -24,8 +23,16 @@ a.category-path__link::before {
   -webkit-transition-duration: .1s;
   -o-transition-duration: .1s;
   transition-duration: .1s;
-  content: '\f07b';
   color: rgba(0,0,0,0.1);
+}
+
+span.navbar-side__title-name::before,
+a.category-path__link::before {
+  content: '\f07b';
+}
+
+span.navbar-side__title-name[data-esa-costume-root-readme='true']::before {
+  content: '\f0f6';
 }
 
 a.category-path__link:hover::before {
