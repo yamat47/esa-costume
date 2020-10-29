@@ -1,7 +1,7 @@
 {
   "name": "esa-costume",
   "author": "Takuya Yamaguchi (@yamat47)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "custom style for esa.io",
   "manifest_version": 2,
   "content_scripts": [
