@@ -1,0 +1,16 @@
+name: build package
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: zip release.zip -r ./ -i manifest.json -i style.css -i script.js -i icons/*
+      - uses: actions/upload-artifact@v2
+        with:
+          name: release
+          path: ./release.zip
