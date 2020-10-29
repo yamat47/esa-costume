@@ -1,0 +1,25 @@
+{
+  "name": "esa-costume",
+  "version": "1.1.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamat47/esa-costume.git"
+  },
+  "author": "Yamaguchi Takuya (@yamat47)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamat47/esa-costume/issues"
+  },
+  "homepage": "https://github.com/yamat47/esa-costume#readme"
+}
