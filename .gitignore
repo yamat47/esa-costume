@@ -1,2 +1,4 @@
 .DS_Store
 release.zip
+node_modules
+package-lock.json
